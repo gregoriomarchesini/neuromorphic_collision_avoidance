@@ -29,6 +29,9 @@ After training the network can be deployed!
 
 :) happy coding! :)
 
+## Requirements
+The python requirements to run the repo are stored in the `requirement.txt` file. You can install the requirements globally or via virtual environment. For the visualization Gazebo Classic 11 is used together with ros2. The package was developed for the ROS2 `humble` distribution. No other distribution was tested.
+
 ## Installation
 
 To install the ros package you need to install the recommended simulations packages first. First create a repo for your workspace 
