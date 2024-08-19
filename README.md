@@ -57,7 +57,7 @@ git clone https://github.com/gregoriomarchesini/sml_nexus_tutorials_ros2.git
 also install this package in the `src` directory
 
 ```
-git clone https://github.com/gregoriomarchesini/neuromorphic_collision_avoidance
+git clone https://github.com/gregoriomarchesini/neuromorphic_collision_avoidance.git
 ```
 
 You are now ready! At the last steps build the workspace and install the required dependencies using rosdep
@@ -72,6 +72,16 @@ the dependency from the package `norse` needs to be resolved manually using `pip
 ```
 pip install norse
 ```
+If during the build process you see the warning 
+
+```
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+```
+this is a known issue in ROS2 humble. Everything will run smoothly.
+
+
+
 In case you are using a virtual environment instead follow the instructions on the `ros2` documentation [here](https://docs.ros.org/en/foxy/How-To-Guides/Using-Python-Packages.html)
 
 
